@@ -23,4 +23,11 @@ class PositivityControllerTest extends TestCase{
 
         $this->assertEquals("correct", $actual);
     }
+
+    public function test_countPositivity_givenMatin_shouldReturnNeutre(){
+
+        $actual = $this->positivityController->countPositivity("matin");
+
+        $this->assertEquals("neutre", $actual);
+    }
 }

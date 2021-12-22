@@ -32,6 +32,15 @@ class PositivityController
                     $nbrPositif++;
             }
         }
+
+        switch ($nbrPositif) {
+            case 0:
+                return "neutre";
+                break;
+            default:
+                return "parfait";
+                break;
+        }
     }
 
 }
