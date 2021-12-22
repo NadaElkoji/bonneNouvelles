@@ -12,5 +12,5 @@
                 <p><input type="submit" name="form_contact" value="Envoyer"></p>
             </form>
         </div>
-    </div><!-- #contenu -->
-</div><!-- #contenu -->
+    </div>
+</div>
